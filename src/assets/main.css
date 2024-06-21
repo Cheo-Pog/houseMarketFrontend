@@ -1,0 +1,175 @@
+
+.dialog-backdrop a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%; 
+  max-width: 600px; 
+  min-width: 300px; 
+  height: auto;
+}
+
+.background-img {
+  background-image: url('/img_background@3x.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.main-content{
+  width: 70%;
+  padding: 20px;
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.favorite-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex{
+  display: flex;
+
+}
+
+body {
+  font-family: 'montserrat', open-sans;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'montserrat bold';
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'montserrat bold';
+  font-size: 22px;
+}
+
+.DesktopHeader:focus {
+  font-family: 'montserrat bold';
+  font-size: 18px;
+}
+
+a .DesktopHeader{
+  font-family: 'montserrat medium';
+  font-size: 18px;
+}
+
+
+.button {
+  font-family: 'montserrat bold';
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-warning {
+  background-color: red;
+}
+
+.button-confirm {
+  background-color: lightgreen;
+}
+
+.backButton{
+  font-family: 'montserrat semibold';
+  font-size: 16px;
+
+}
+
+.InputFielTitle{
+  font-family: 'montserrat semibold';
+  font-size: 16px;
+}
+
+
+
+.emptyStateMessage{
+  font-family: 'montserrat medium';
+  font-size: 18px;
+}
+
+.primaryElement{
+  background-color: #EB5440;
+}
+
+.secondaryElement{
+  background-color: #4A4B4C;
+}
+
+.TertiaryElement1{
+  background-color: #E8E8E8;
+}
+
+.TertiaryElement2{
+  background-color: #C3C3C3;
+}
+
+.background1{
+  background-color: #F6F6F6;
+}
+
+.background2{
+  background-color: #FFFFFF;
+}
+
+.primaryText{
+  color: #000000;
+}
+
+.secondaryText{
+  color: #4A4B4C;
+}
+
+.hyperlink{
+  color: #067BC2;
+}
